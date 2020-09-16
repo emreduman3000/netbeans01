@@ -1,0 +1,30 @@
+
+/*  css folder of book inventory interface */
+
+.root
+{
+    -fx-background-color: #FCF199;
+    -fx-border-color:black;
+    dark:#006400;
+    light: rgb(0,128,128);
+
+}
+.button
+{
+    -fx-background-color:#FAF5CB;
+    -fx-border-color:black;
+    -fx-text-fill:#CA210A;
+}
+.label
+{
+    -fx-border-color:black;
+    -fx-background-color:#FAF5CB;
+    -fx-text-fill:#CA210A;
+
+}
+ 
+.textfield
+{
+   -fx-border-color:black;
+
+}

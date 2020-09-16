@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<!--
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="w52gridpane.FXMLgridpaneController">
+</AnchorPane>
+-->
+<GridPane prefHeight="350.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="w54fx.FXMLController">
+    <columnConstraints>
+    <ColumnConstraints percentWidth="20" />
+    <ColumnConstraints percentWidth="30" />
+    <ColumnConstraints percentWidth="30" />
+    <ColumnConstraints percentWidth="20" />
+    </columnConstraints>
+    <children>
+        <Label text="Employee Information" GridPane.rowIndex="0" GridPane.columnIndex="1" GridPane.columnSpan="2"/>
+        <Label text="Employee ID:" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="2"/>
+        <TextField GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.columnSpan="2"/>
+        <Label text="Salary" GridPane.halignment="RIGHT" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="1"/>
+        <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.columnSpan="2"/>
+    </children>    
+</GridPane>

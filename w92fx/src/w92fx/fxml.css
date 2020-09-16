@@ -1,0 +1,28 @@
+
+    .root{
+        -fx-background-color: greenyellow;
+                -fx-border-color:blueviolet;
+
+        dark:#006400;
+        light: rgb(0,128,128);
+    }
+    .button{
+        -fx-background-color:dark;
+        -fx-border-style:solid;
+        -fx-border-color:blueviolet;
+        -fx-text-fill:blue;
+        -fx-font:12pt sans-serif;
+    }
+    .label{
+        -fx-background-color:light;
+    }
+    .radio-button{
+         -fx-background-color:cadetblue;
+          -fx-text-fill: aquamarine; 
+    }
+    .check-box{
+        -fx-background-color:cadetblue;
+          -fx-text-fill: aquamarine; 
+    }
+
+

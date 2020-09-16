@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="492.0" prefWidth="900.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="w82fx.FXMLController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" layoutX="1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@tubis.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnclear" layoutX="353.0" layoutY="70.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
+      <Button fx:id="btnexit" layoutX="419.0" layoutY="68.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+      <Button fx:id="btnadd" layoutX="343.0" layoutY="29.0" mnemonicParsing="false" onAction="#addition" style="-fx-background-color: green; -fx-border-color: red;" text="ADDITION" textFill="#c31919">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnmul" layoutX="439.0" layoutY="27.0" mnemonicParsing="false" onAction="#multiplication" text="MUL" />
+      <Label layoutX="15.0" layoutY="55.0" text="Enter second number" textFill="#2112a8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="90.0" text="Result" textFill="#ae1515">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="11.0" text="Enter first number" textFill="#3d1ce1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtfirst" layoutX="171.0" layoutY="15.0" />
+      <TextField fx:id="txtsecond" layoutX="173.0" layoutY="56.0" />
+      <TextField fx:id="txtres" layoutX="169.0" layoutY="92.0" />
+      <TextArea fx:id="tarea" layoutX="503.0" layoutY="219.0" prefHeight="174.0" prefWidth="285.0" />
+      <CheckBox fx:id="chkadd" layoutX="348.0" layoutY="124.0" mnemonicParsing="false" onAction="#chkaddition" style="-fx-background-color: red;" text="ADDITION" />
+      <RadioButton fx:id="radadd" layoutX="353.0" layoutY="166.0" mnemonicParsing="false" onAction="#radaddition" text="ADDITION" />
+      <RadioButton fx:id="radmul" layoutX="353.0" layoutY="202.0" mnemonicParsing="false" onAction="#radmultiplication" text="MULTIPLICATION" />
+      <ComboBox fx:id="cmb" layoutX="344.0" layoutY="236.0" onAction="#cmbevent" prefWidth="150.0" />
+      <ListView fx:id="lview" layoutX="344.0" layoutY="308.0" prefHeight="135.0" prefWidth="150.0" />
+      <Button fx:id="btnimg" graphicTextGap="6.0" layoutX="519.0" layoutY="31.0" mnemonicParsing="false" onAction="#btnimgchange" text="Click to ChangeImg" textAlignment="CENTER">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sm4.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fx:id="imgview" fitHeight="87.0" fitWidth="129.0" layoutX="538.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sm2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

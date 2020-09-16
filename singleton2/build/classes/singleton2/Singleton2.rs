@@ -1,0 +1,2 @@
+singleton2.Singleton
+singleton2.Singleton2

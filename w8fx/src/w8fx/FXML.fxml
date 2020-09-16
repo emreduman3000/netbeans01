@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="541.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="w8fx.FXMLController">
+   <children>
+      <Button fx:id="btnclear" layoutX="353.0" layoutY="70.0" mnemonicParsing="false" onAction="#clear" text="CLEAR" />
+      <Button fx:id="btnexit" layoutX="419.0" layoutY="68.0" mnemonicParsing="false" onAction="#exit" text="EXIT" />
+      <Button fx:id="btnadd" layoutX="343.0" layoutY="29.0" mnemonicParsing="false" onAction="#addition" text="ADDITION" textFill="#c31919">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnmul" layoutX="439.0" layoutY="27.0" mnemonicParsing="false" onAction="#multiplication" text="MUL" />
+      <Label layoutX="15.0" layoutY="55.0" text="Enter second number" textFill="#2112a8">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="90.0" text="Result" textFill="#ae1515">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="11.0" text="Enter first number" textFill="#3d1ce1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtfirst" layoutX="171.0" layoutY="15.0" />
+      <TextField fx:id="txtsecond" layoutX="173.0" layoutY="56.0" />
+      <TextField fx:id="txtres" layoutX="169.0" layoutY="92.0" />
+      <TextArea fx:id="tarea" layoutX="39.0" layoutY="174.0" prefHeight="174.0" prefWidth="285.0" />
+      <CheckBox fx:id="chkadd" layoutX="348.0" layoutY="124.0" mnemonicParsing="false" onAction="#chkaddition" text="ADDITION" />
+      <RadioButton fx:id="radadd" layoutX="353.0" layoutY="166.0" mnemonicParsing="true" onAction="#radaddition" text="ADDITION" />
+      <RadioButton fx:id="radmul" layoutX="353.0" layoutY="202.0" mnemonicParsing="true" onAction="#radmultiplication" text="MULTIPLICATION" />
+   </children>
+</AnchorPane>
